@@ -28,3 +28,9 @@ li {
     text-transform: uppercase; /* Todos los caracteres ser convierten a mayúsculas */
     padding: 20px; /* Agregar espacio dentro de cada elementos de la lista */
 }
+
+section {
+    position: relative; /* Permite mover el <section> sin afectar a los otros elementos. */
+    background-color: whitesmoke;
+    padding: 20px;
+}
