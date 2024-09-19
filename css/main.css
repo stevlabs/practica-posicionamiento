@@ -16,6 +16,11 @@ nav {
     top: 0; /* se quedara en el borde superior al hacer scroll */
 }
 
+/* Estilo del contenido principal */
+main {
+    position: relative; /* Posicion relativa para que <aside> se mueva dentro de este contenedor*/
+}
+
 /* Estilo para la lista */
 ul {
     text-align: center;
@@ -37,5 +42,17 @@ section {
 
 aside {
     position: absolute;  /* Posicion fija respecto al contenedor */
+    top: 50%;
     right: 0; /* Coloca el aside a la derecha del contenedor */
+    background-color: grey;
+}
+
+footer {
+    position: fixed; /* Mantiene el footer en una posicion fija a diferencia de sticky*/
+    bottom: 0; /* Se posiciona abajo de la pantalla */
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
