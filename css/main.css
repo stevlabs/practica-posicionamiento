@@ -34,3 +34,8 @@ section {
     background-color: whitesmoke;
     padding: 20px;
 }
+
+aside {
+    position: absolute;  /* Posicion fija respecto al contenedor */
+    right: 0; /* Coloca el aside a la derecha del contenedor */
+}
