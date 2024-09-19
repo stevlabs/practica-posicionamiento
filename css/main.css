@@ -1,0 +1,12 @@
+/* Elimina margin y padding por defecto de los navegadores */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px; /* Agregar espacio alrededor del contenido */
+}
