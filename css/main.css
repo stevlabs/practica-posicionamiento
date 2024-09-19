@@ -10,3 +10,21 @@ header {
     background-color: black;
     padding: 10px; /* Agregar espacio alrededor del contenido */
 }
+
+nav {
+    position: sticky; /* Mantiene su posicion al hacer scroll */
+    top: 0; /* se quedara en el borde superior al hacer scroll */
+}
+
+/* Estilo para la lista */
+ul {
+    text-align: center;
+    background-color: bisque;
+}
+
+/* Estilo para los elementos de la lista*/
+li {
+    display: inline;
+    text-transform: uppercase; /* Todos los caracteres ser convierten a mayúsculas */
+    padding: 20px; /* Agregar espacio dentro de cada elementos de la lista */
+}
